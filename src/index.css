@@ -28,7 +28,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    
+    gap: 1em;
   }
 
 /* General Styles ====================================================================================================== */
@@ -43,10 +43,6 @@
   /* margin: 3em 3em 10 1m; */
   border: 1px solid #0b0101;
   min-width: 10em;
-}
-
-.information-container +  .information-container{
-  margin-left: 1em;
 }
 
 /* Header elements ====================================================================================================== */
