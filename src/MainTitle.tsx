@@ -5,7 +5,7 @@ function MainTitle() {
     <Fragment>
       <header className="header">
         <img
-          src="/public/profilePicture.png"
+          src="/../public/profilePicture.png"
           alt="Portfolio Picture"
           id="profile-picture"
           className="center"
