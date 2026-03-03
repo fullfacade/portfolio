@@ -1,33 +1,25 @@
 import { Fragment } from "react/jsx-runtime";
+import InformationContainer from "./InformationContainer";
 
 function MainContent() {
   return (
     <Fragment>
       <main>
-        <div className="information-container">
-          <h2 id="information-header" className="center">
-            About
-          </h2>
-          <h3 id="information-content" className="center">
-            Information Placeholder
-          </h3>
-        </div>
-        <div className="information-container">
-          <h2 id="information-header" className="center">
-            Header
-          </h2>
-          <h3 id="information-content" className="center">
-            Information 1
-          </h3>
-        </div>
-        <div className="information-container">
-          <h2 id="information-header" className="center">
-            Header
-          </h2>
-          <h3 id="information-content" className="center">
-            Information 1
-          </h3>
-        </div>
+        <InformationContainer
+          header="About"
+          information={["placeholder description"]}
+        />
+        <InformationContainer
+          header="Certifications"
+          information={[
+            "placeholder certification 1",
+            "placeholder certification 2",
+          ]}
+        />
+        <InformationContainer
+          header="Projects/Demo"
+          information={["placeholder link 1", "placeholder link 2"]}
+        />
       </main>
     </Fragment>
   );
