@@ -24,10 +24,12 @@
   }
 
   /* Main */
+  /* TODO: Ratio issue at 150% zoom */
   main {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    /* justify-content: center; */
+    margin: 0em 6em 0em 6em;
     gap: 1em;
   }
 
@@ -40,9 +42,9 @@
 }
 
 .information-container {
-  /* margin: 3em 3em 10 1m; */
   border: 1px solid #0b0101;
-  min-width: 30%;
+  flex-grow: 1;
+  flex-basis: 25%;
 }
 
 /* Header elements ====================================================================================================== */
