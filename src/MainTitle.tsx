@@ -10,11 +10,12 @@ function MainTitle() {
           id="profile-picture"
           className="center"
         ></img>
-        <h1 className="center" id="full-name">
-          Placeholder Name
+        <h1 className="center" id="app-name">
+          Magilearn
         </h1>
-        <p className="center" id="self-title">
-          Developer
+        <p className="center" id="app-description">
+          A personal self-made Japanese vocab learning app for the purpose of
+          development practice
         </p>
       </header>
     </Fragment>

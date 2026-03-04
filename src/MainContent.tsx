@@ -10,15 +10,8 @@ function MainContent() {
           information={["placeholder description"]}
         />
         <InformationContainer
-          header="Certifications"
-          information={[
-            "placeholder certification 1",
-            "placeholder certification 2",
-          ]}
-        />
-        <InformationContainer
-          header="Projects/Demo"
-          information={["placeholder link 1", "placeholder link 2"]}
+          header="Get started"
+          information={["Placeholder content 1", "Placeholder content 2"]}
         />
       </main>
     </Fragment>
